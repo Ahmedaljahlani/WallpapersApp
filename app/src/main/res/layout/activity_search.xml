@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:clickable="true"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.search.SearchActivity"
+    android:focusable="true">
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/idLL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:background="@drawable/overlay_buttons"
+            android:src="@drawable/left" />
+        <!--linear layout for displaying search bar-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/search_back"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <!--edit text for displaying edittext-->
+            <EditText
+                android:id="@+id/idEdtSearch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.5"
+                android:hint="Search Wallpapers"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:imeOptions="actionSearch"
+                app:backgroundTint="@android:color/transparent" />
+
+            <!--image view for displaying search icon-->
+            <ImageView
+                android:id="@+id/idIVSearch"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:padding="4dp"
+                android:src="@drawable/loupe" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVWallpapers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idLL1"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:clipToPadding="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Hello World!"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:spanCount="3"
+        tools:listitem="@layout/wallpaper_rv_item" />
+
+</RelativeLayout>

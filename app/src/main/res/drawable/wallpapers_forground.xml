@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="270"
+        android:endColor="@color/blure_image"
+        android:startColor="@color/blure_image"
+        android:centerColor="@color/blure_image"
+        android:type="linear"/>
+    <corners android:radius="0dp"/>
+</shape>

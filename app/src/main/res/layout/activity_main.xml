@@ -17,11 +17,20 @@
         android:indeterminate="true"
         android:visibility="gone" />
 
+    <Button
+        android:id="@+id/IdRetryBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="retry"
+        android:textAllCaps="false"
+        android:visibility="invisible" />
+
     <!--linear layout for displaying search bar-->
     <LinearLayout
         android:id="@+id/idLL1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_margin="10dp"
         android:background="@drawable/search_back"
         android:focusable="true"
@@ -32,14 +41,15 @@
         <EditText
             android:id="@+id/idEdtSearch"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="3.5"
             android:hint="Search Wallpapers"
             android:padding="8dp"
             android:singleLine="true"
             android:textColor="@color/white"
-            android:textColorHint="@color/white"
             android:textSize="15sp"
+            android:focusable="false"
+            android:clickable="false"
             app:backgroundTint="@android:color/transparent" />
 
         <!--image view for displaying search icon-->
@@ -60,9 +70,10 @@
         android:layout_height="match_parent"
         android:layout_below="@id/idLL1"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="10dp"
+        android:clipToPadding="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="Hello World!"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"

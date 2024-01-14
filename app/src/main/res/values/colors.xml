@@ -22,4 +22,11 @@
     <color name="blure_image">#00ffffff</color>
     <color name="transparent">#00ffffff</color>
 
+
+
+    <color name="colorOverlay">#78ffffff</color>
+    <color name="colorAccentOverlay">#1400bcd4</color>
+    <color name="colorTransparentBlack">#14000000</color>
+    <color name="colorPrimaryTransparent">#6400bcd4</color>
+
 </resources>

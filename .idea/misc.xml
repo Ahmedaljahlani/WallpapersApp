@@ -3,14 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable-v24/blur_effect.xml" value="0.1" />
         <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable-v24/button_background.xml" value="0.1" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable-v24/foreground.xml" value="0.1265" />
         <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable-v24/foreground_design.xml" value="0.1" />
         <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable-v24/search_back.xml" value="0.1" />
-        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_wallpaper.xml" value="0.11312217194570136" />
-        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/categories.xml" value="0.264" />
-        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/category_rv_item.xml" value="0.536" />
-        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/wallpaper_rv_item.xml" value="0.1" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable-v24/selected_background.xml" value="0.1215" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/below_shadow.xml" value="0.168" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/blur_test.xml" value="0.1765" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/buttons_bg.xml" value="0.1745" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/categories_signature_bg.xml" value="0.168" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/custom_button_shadow.xml" value="0.185" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml" value="0.1745" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1745" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/linear_shadow.xml" value="0.168" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/overlay_buttons.xml" value="0.168" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/signature_bg.xml" value="0.185" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/spacing.xml" value="0.168" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/wallpaper_img_bg.xml" value="0.185" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/drawable/wallpapers_forground.xml" value="0.185" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout-v28/category_rv_item.xml" value="0.25" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout-v31/category_rv_item.xml" value="0.25" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_categories.xml" value="0.176" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_category_search.xml" value="0.25" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_category_serch.xml" value="0.2" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_search.xml" value="0.2" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/activity_wallpaper.xml" value="0.2" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/categories.xml" value="0.176" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/category_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/new_main_test.xml" value="0.152" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/new_wallpaper_activity.xml" value="0.152" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/redesigned_wallpapers.xml" value="0.264" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/temp_wallpapers.xml" value="0.25" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/test.xml" value="0.152" />
+        <entry key="..\:/Users/MEDO/AndroidStudioProjects/MVVMWallpaper/app/src/main/res/layout/wallpaper_rv_item.xml" value="0.176" />
+        <entry key="..\:/Users/MEDO/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/auto_complete_list.xml" value="0.25" />
       </map>
     </option>
   </component>

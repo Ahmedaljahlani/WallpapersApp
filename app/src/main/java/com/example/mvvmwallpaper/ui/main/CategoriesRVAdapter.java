@@ -53,6 +53,10 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
             @Override
             public void onClick(View view) {
                 categoryClickInterface.onCategoryClick(position);
+//                Intent intent=new Intent(context, CategoriesActivity.class);
+//                intent.putExtra("categories",categoryRVModels.get(position).getCategory());
+//                Log.e(TAG, "onClick: "+categoryRVModels.get(position) );
+//                context.startActivity(intent);
             }
         });
 //        if (!model.getImgUrl().isEmpty()){
